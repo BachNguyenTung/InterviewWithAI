@@ -12,7 +12,7 @@ const compat = new FlatCompat({
   allConfig: js.configs.all
 });
 
-export default defineConfig([globalIgnores([]), {
+export default defineConfig([globalIgnores([".config/"]), {
   extends: compat.extends(
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
