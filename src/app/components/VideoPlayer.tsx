@@ -18,7 +18,7 @@ export default function VideoPlayer({ stream, muted }: VideoPlayerProps) {
 
   return (
     <video ref={videoRef} autoPlay playsInline muted={muted} className='h-full w-full object-cover'>
-      <track default kind='captions' srcLang='en' src='' />
+      <track default kind='captions' srcLang='en' src={undefined} />
     </video>
   );
 }
