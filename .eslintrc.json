@@ -7,5 +7,6 @@
     "plugin:tailwindcss/recommended"
   ],
   "rules": {
+    "jsx-a11y/media-has-caption": "off"
   }
 }

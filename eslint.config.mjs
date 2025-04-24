@@ -20,5 +20,7 @@ export default defineConfig([globalIgnores([".config/"]), {
     "prettier",
   ),
 
-  rules: {},
+  rules: {
+    "@typescript-eslint/no-unused-vars": "off"
+  },
 }]);

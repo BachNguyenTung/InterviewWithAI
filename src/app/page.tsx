@@ -1,3 +1,9 @@
-export default function Page() {
-  return <h1>Hello, Next.js!</h1>;
+import VideoRoom from './components/VideoRoom';
+
+export default function Home() {
+  return (
+    <main>
+      <VideoRoom />
+    </main>
+  );
 }
